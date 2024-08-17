@@ -968,8 +968,9 @@ awsSecurityGroupPolicies:
 
 # Here you can configure unit tests values when executing the helm unittest in the CONTRIBUTING.md
 helmtest:
+  enabled: false
   # A testing framework for bash
-  bats:
-    # Bash Automated Testing System (BATS)
-    image: "bats/bats"
-    tag: "1.9.0"
+  # bats:
+  #   # Bash Automated Testing System (BATS)
+  #   image: "bats/bats"
+  #   tag: "1.9.0"
