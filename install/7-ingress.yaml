@@ -60,4 +60,4 @@ spec:
   tls:
   - hosts:
     - jenkins-for-agent.poc.rbzearch.me
-    secretName: jenkins-tls
+    secretName: jenkins-tls-50000
