@@ -4,4 +4,4 @@ metadata:
   name: jenkins-config
   namespace: jenkins
 data:
-  JENKINS_OPTS: "--prefix=/jenkins"
+  JENKINS_OPTS: "--prefix="
